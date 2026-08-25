@@ -1,0 +1,59 @@
+html{
+    background-image: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid rgb(255, 0, 0);
+    width: 99.25vw;
+    height: 98vh;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    border : 2px solid rgb(247, 219, 6);
+    width:auto;
+    height: auto;
+    font-size: 3rem;
+    color: blue;
+    font-style: italic;
+
+}
+span{
+    color:rgb(43, 78, 255);
+
+}
+
+img{
+    border: 2px solid rgb(106, 0, 255);
+
+}
+
+div.static{
+    position: static;
+    border:3px solid blue;   
+}
+
+div.relative{
+    position: relative;
+    border:3px solid red;
+    top: 0px;
+    left: 0px;
+}
+
+div.absolute{
+    position: absolute;
+    border:3px solid green;
+    top: 332px;
+    left: 14px;
+}
+
+div.fixed{
+    position: fixed;
+    border:3px solid yellow;
+    top: 500px;
+    left: 220px;
+}
